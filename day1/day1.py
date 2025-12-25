@@ -33,7 +33,7 @@ def part_2(text):
 
 
 if __name__ == "__main__":
-    TEXT = 'text.txt'
+    INPUT = 'input.txt'
     EXAMPLE = 'example.txt'
-    with open(TEXT) as file:
+    with open(INPUT) as file:
         print(part_2(file))
