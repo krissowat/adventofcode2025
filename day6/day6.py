@@ -28,7 +28,6 @@ def part_2(file):
                     numbers.append([])
                 numbers[i] += char
         else:
-            print(numbers)
             operators = [char for char in line if char in ['*', '+']]
             number_index = 0
             grand_total = 0
